@@ -1,0 +1,54 @@
+.required {
+    color: red;
+}
+ 
+label {
+    font-weight: bold;
+}
+ 
+.radio {
+    font-weight: normal;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+ 
+form {
+    background-color: #eaeaea;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+ 
+form > label:not(.radio) {
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+    margin-right: 15px;
+}
+ 
+form > label.radio {
+    display: inline;
+    width: auto;
+    text-align: left;
+    margin-right: 10px;
+}
+ 
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    padding: 3px;
+    border: 1px solid #888;
+    width: 250px;
+}
+ 
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-left: 5px;
+}
+ 
